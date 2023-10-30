@@ -9,8 +9,8 @@ from app.views import (
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("warmup-1/<int:n>", near_hundred_view),
-    path("warmup-2/<string>", string_splosion_view),
-    path("string-2/<string>", cat_dog_view),
-    path("logic-2/<int:a>/<int:b>/<int:c>", lone_sum_view),
+    path("warmup-1/near-hundred/<int:n>", near_hundred_view),
+    path("warmup-2/string-splosion/<string>", string_splosion_view),
+    path("string-2/cat-dog/<string>", cat_dog_view),
+    path("logic-2/lone-sum/<int:a>/<int:b>/<int:c>", lone_sum_view),
 ]
